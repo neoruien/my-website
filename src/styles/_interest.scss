@@ -8,12 +8,13 @@
   }
 }
 
+.InterestCard:last-child {
+  margin-right: 0;
+}
+
 .InterestCard {
   flex: 1;
   margin-right: 2rem;
-  :last-child {
-    margin-right: 0;
-  }
   .interest-container {
     background-color: #191d2b;
     border-left: 1px solid #2e344e;
